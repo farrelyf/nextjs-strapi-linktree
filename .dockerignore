@@ -1,0 +1,24 @@
+# Ignore node_modules in both backend and frontend
+**/node_modules
+
+# Ignore build directories (if they exist)
+**/build
+**/.next
+
+# Ignore any logs or temporary files
+**/*.log
+**/*.pid
+**/*.lock
+
+# Ignore any development specific files
+**/.git
+**/.vscode
+**/.idea
+
+# Ignore any editor specific files
+**/.DS_Store
+
+# Ignore any backup or hidden files
+**/*~
+**/#*
+**/.#*
